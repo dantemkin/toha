@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   init('#ityped', {
     strings,
     startDelay: 200,
-    loop: true
+    loop: true,
+    //disableBackTyping: true
   })
 })
